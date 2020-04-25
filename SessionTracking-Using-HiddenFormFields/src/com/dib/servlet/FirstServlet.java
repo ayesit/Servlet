@@ -33,6 +33,9 @@ public class FirstServlet extends HttpServlet {
 			pw.println("<table align='center'>");
 			pw.println("<tr><td>When Do you want</td> <td><input type='text' name='f2t1'</td></tr>");
 			pw.println("<tr><td>Why Do you want</td> <td><input type='text' name='f2t2'</td></tr>");
+			pw.println("<input type='hidden' name='hname' value='"+pname+"'>");
+			pw.println("<input type='hidden' name='hfname' value='"+fname+"'>");
+			pw.println("<input type='hidden' name='hms' value='"+status+"'>");
 			pw.println("<tr><td colspan='2'><input type='submit'value='submit'></td></tr>");
 			pw.println("</table>");
 			pw.println("</form>");
@@ -44,6 +47,9 @@ public class FirstServlet extends HttpServlet {
 			pw.println("<table align='center'>");
 			pw.println("<tr><td>How many kids?</td> <td><input type='text' name='f2t1'</td></tr>");
 			pw.println("<tr><td>Husband Name?</td> <td><input type='text' name='f2t2'</td></tr>");
+			pw.println("<input type='hidden' name='hname' value='"+pname+"'>");
+			pw.println("<input type='hidden' name='hfname' value='"+fname+"'>");
+			pw.println("<input type='hidden' name='hms' value='"+status+"'>");
 			pw.println("<tr><td colspan='2'><input type='submit'value='submit'></td></tr>");
 			pw.println("</table>");
 			pw.println("</form>");

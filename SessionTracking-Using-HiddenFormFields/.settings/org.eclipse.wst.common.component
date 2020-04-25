@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="Application-DynamicForm">
+    <wb-module deploy-name="SessionTracking-Using-HiddenFormFields">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="Application-DynamicForm"/>
-        <property name="java-output-path" value="/Application-DynamicForm/build/classes"/>
+        <property name="context-root" value="SessionTracking-Using-HiddenFormFields"/>
+        <property name="java-output-path" value="/SessionTracking-Using-HiddenFormFields/build/classes"/>
     </wb-module>
 </project-modules>
