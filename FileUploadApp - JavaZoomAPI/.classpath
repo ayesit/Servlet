@@ -13,9 +13,9 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="A:/Java Zoom API/cos.jar"/>
-	<classpathentry kind="lib" path="A:/Java Zoom API/fileupload.jar"/>
-	<classpathentry kind="lib" path="A:/Java Zoom API/struts.jar"/>
-	<classpathentry kind="lib" path="A:/Java Zoom API/uploadbean.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/Java Zoom API/cos.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/Java Zoom API/fileupload.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/Java Zoom API/struts.jar"/>
+	<classpathentry kind="lib" path="A:/Jars/Java Zoom API/uploadbean.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
