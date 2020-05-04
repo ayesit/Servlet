@@ -39,7 +39,7 @@ public class FIrstServlet extends HttpServlet {
 	ses.setAttribute("gender", gender);
 	
 	pw.println("<h1 style='color:blue;text-align:center'>Provide Income Details</h1>");
-	pw.println("<form action='secondurl' method='POST'>");
+	pw.println("<form action='"+response.encodeURL("secondurl")+"'method='POST'>");
 	pw.println("<table align='center'>");
 	pw.println("<tr><td> Income of this year</td><td><input type='text' name='income'></td></tr>");
 	pw.println("<tr><td> Tax </td><td><input type='text' name='tax'></td></tr>");
